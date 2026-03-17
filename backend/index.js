@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin:'https://jobify-mern-stack-frontend.onrender.com',
+    origin:'https://jobify-mern-stack-frontt.onrender.com',
     credentials:true
 }
 
